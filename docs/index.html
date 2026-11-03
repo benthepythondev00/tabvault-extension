@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TabVault Privacy Policy</title>
+  <title>Privacy Policy for TabVault - Session Manager &amp; Tab Organizer</title>
   <style>
     * {
       margin: 0;
@@ -119,87 +119,80 @@
     </svg>
     <h1>TabVault</h1>
     <p class="subtitle">Privacy Policy</p>
-    <span class="badge">Last Updated: December 2025</span>
+    <span class="badge">Last updated: 2 November 2026</span>
   </header>
 
   <main>
-    <h2>Overview</h2>
-    <p>TabVault is a browser extension that helps you save and restore browser tab sessions. We are committed to protecting your privacy and being transparent about our data practices.</p>
+    <p>This policy explains what TabVault does with your data. The short version: your tab data stays in your own browser. TabVault has no server and no analytics, and we never receive your sessions.</p>
 
-    <h2>Data Collection</h2>
-    
-    <h3>What We Collect</h3>
-    <p>TabVault collects and stores the following data <strong>locally on your device only</strong>:</p>
+    <h2>Who we are</h2>
+    <p>TabVault is a Chrome extension made and maintained by an independent developer (GitHub: <a href="https://github.com/benthepythondev00">benthepythondev00</a>). It is available on the <a href="https://chromewebstore.google.com/detail/abnclgimbelipkonifmbdbkkelloadmf">Chrome Web Store</a> (extension ID <code>abnclgimbelipkonifmbdbkkelloadmf</code>).</p>
+
+    <h2>What we collect</h2>
+    <p>TabVault stores the following on your device, in your browser only:</p>
     <ul>
-      <li><strong>Tab URLs and titles:</strong> To save and restore your sessions</li>
-      <li><strong>Tab group information:</strong> Group names, colors, and collapsed state</li>
-      <li><strong>Window positions:</strong> To restore window layouts (optional)</li>
-      <li><strong>Session metadata:</strong> Names, colors, tags, and timestamps you assign</li>
+      <li><strong>Saved sessions:</strong> for each session you save, the web address (URL) and title of each tab, the address of each tab's icon (favicon), whether the tab is pinned, its position, your tab groups (name, color, collapsed or not) and your window layout (which tabs are in which window, plus window size, position and state).</li>
+      <li><strong>Session details you add:</strong> session names, colors, tags and workspace names.</li>
+      <li><strong>Backups:</strong> copies of your saved sessions that TabVault creates before a restore or a delete, when you ask for one, and automatically on a timer if you are a Pro user and have automatic backups on.</li>
+      <li><strong>Settings:</strong> your theme, backup interval and retention, and restore preferences.</li>
+      <li><strong>Usage counters:</strong> a simple per-day count of sessions and tabs saved and restored, kept for the last 30 days and shown only to you inside the extension.</li>
+    </ul>
+    <p>We do not collect your name, your email address, your browsing history beyond the tabs in sessions you save, cookies, passwords or the content of web pages. TabVault has no analytics, crash reporting or tracking.</p>
+
+    <h2>Why we collect it</h2>
+    <p>This data exists so you can save a set of tabs and get it back later, and so a backup is there if you restore or delete something by mistake. TabVault does not use it for advertising, profiling or any other purpose.</p>
+
+    <h2>Where it is stored</h2>
+    <ul>
+      <li>Sessions, backups, settings and counters are stored in Chrome's local extension storage (<code>chrome.storage.local</code>) on your device.</li>
+      <li>If you press Export in the settings, TabVault creates a JSON file with your data and your browser saves it where you choose. The file is yours, and TabVault does not read it again until you import it.</li>
     </ul>
 
-    <h3>What We Do NOT Collect</h3>
+    <h2>Sharing and third parties</h2>
+    <p>We do not sell or share your tab data, and nothing in your sessions is uploaded to any server, including ours.</p>
+    <h3>ExtensionPay (Pro upgrade)</h3>
+    <p>TabVault is free to use with a limit of 5 saved sessions, and has an optional Pro upgrade. Payments are handled by <a href="https://extensionpay.com/privacy">ExtensionPay</a>. The extension contacts ExtensionPay to check whether Pro is active, using a random license key that is not linked to your browsing. If you upgrade or log in, ExtensionPay receives your email address, and Stripe processes your payment details. We never see your card details. Your tabs and sessions are never sent to ExtensionPay.</p>
+    <p>The Chrome Web Store distributes the extension, and Google's own privacy policy covers the store itself.</p>
+
+    <h2>How long we keep it</h2>
     <ul>
-      <li>Personal identification information</li>
-      <li>Browsing history beyond saved sessions</li>
-      <li>Cookies or login credentials</li>
-      <li>Any data from the content of web pages</li>
-      <li>Analytics or tracking data</li>
+      <li><strong>Saved sessions:</strong> until you delete them.</li>
+      <li><strong>Backups:</strong> TabVault removes backups older than your retention setting (7 days by default) and keeps at most the 10 most recent per session.</li>
+      <li><strong>Usage counters:</strong> the last 30 days.</li>
+      <li><strong>Exported files:</strong> until you delete them. They are ordinary files on your computer.</li>
+      <li><strong>When you uninstall:</strong> Chrome removes all of TabVault's in-browser data. Exported files stay until you delete them.</li>
     </ul>
 
-    <h2>Data Storage</h2>
-    <p>All data is stored locally in your browser using Chrome's storage API:</p>
+    <h2>Your rights and choices</h2>
+    <p>Since your data lives on your own device, you are in control of it.</p>
     <ul>
-      <li>Sessions and settings are stored in <code>chrome.storage.local</code></li>
-      <li>Data never leaves your device unless you explicitly export it</li>
-      <li>Uninstalling the extension removes all stored data</li>
+      <li><strong>Access:</strong> you can see your sessions in the TabVault popup, and download everything as a JSON file with Export in the settings.</li>
+      <li><strong>Deletion:</strong> delete any session in the popup, or uninstall TabVault to remove all in-browser data at once.</li>
+      <li><strong>Portability:</strong> Import restores an exported file into TabVault.</li>
+      <li><strong>Payment data:</strong> for questions about your ExtensionPay account or payment data, use the links on <a href="https://extensionpay.com/privacy">ExtensionPay's privacy page</a>.</li>
     </ul>
+    <p>We never hold a copy of your tab data, so we cannot look it up or delete it for you, but we are happy to help you find it.</p>
 
-    <h2>Third-Party Services</h2>
-    <h3>ExtensionPay</h3>
-    <p>If you choose to upgrade to Pro, we use ExtensionPay for payment processing. ExtensionPay may collect:</p>
+    <h2>Permissions explained</h2>
     <ul>
-      <li>Email address (for account and receipt)</li>
-      <li>Payment information (processed by Stripe)</li>
+      <li><strong>storage:</strong> to save your sessions in your browser.</li>
+      <li><strong>tabs:</strong> to read the tabs you save and to open them when you restore.</li>
+      <li><strong>tabGroups:</strong> to save and restore Chrome tab groups.</li>
     </ul>
-    <p>ExtensionPay's privacy practices are governed by their own privacy policy at <a href="https://extensionpay.com/privacy">extensionpay.com/privacy</a></p>
+    <p>TabVault also runs a small script on extensionpay.com pages only, so the extension learns when a payment is complete. It reads nothing else.</p>
 
-    <h2>Data Sharing</h2>
-    <p>We do not sell, trade, or share your data with any third parties. The only data that leaves your device is:</p>
-    <ul>
-      <li>Payment information when upgrading to Pro (handled by ExtensionPay/Stripe)</li>
-      <li>Data you explicitly export using the Export feature</li>
-    </ul>
+    <h2>Children</h2>
+    <p>TabVault is a general productivity tool and is not directed at children under 13. It does not knowingly collect personal information from anyone, and it sends no tab data off your device.</p>
 
-    <h2>Your Rights</h2>
-    <p>You have full control over your data:</p>
-    <ul>
-      <li><strong>Export:</strong> Download all your data as a JSON file at any time</li>
-      <li><strong>Delete:</strong> Remove any session or all data through the extension</li>
-      <li><strong>Uninstall:</strong> Removing the extension deletes all stored data</li>
-    </ul>
-
-    <h2>Permissions Explained</h2>
-    <p>TabVault requests the following permissions:</p>
-    <ul>
-      <li><strong>storage:</strong> To save your sessions locally</li>
-      <li><strong>tabs:</strong> To read and create browser tabs</li>
-      <li><strong>tabGroups:</strong> To save and restore Chrome tab groups</li>
-    </ul>
-    <p>These permissions are used solely for the stated functionality and nothing else.</p>
-
-    <h2>Children's Privacy</h2>
-    <p>TabVault is not directed at children under 13 and we do not knowingly collect data from children.</p>
-
-    <h2>Changes to This Policy</h2>
-    <p>We may update this privacy policy occasionally. Changes will be posted on this page with an updated revision date.</p>
+    <h2>Changes to this policy</h2>
+    <p>If TabVault's data use changes, we will update this page and the "Last updated" date at the top.</p>
 
     <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, please contact us through the Chrome Web Store support page or open an issue on our GitHub repository.</p>
+    <p>Questions or concerns about privacy: use the support tab of the <a href="https://chromewebstore.google.com/detail/abnclgimbelipkonifmbdbkkelloadmf">TabVault Chrome Web Store listing</a>, or open an issue on <a href="https://github.com/benthepythondev00/tabvault-extension/issues">GitHub</a>.</p>
   </main>
 
   <footer>
-    <p>By using TabVault, you agree to this privacy policy.</p>
-    <p>&copy; 2025 TabVault. All rights reserved.</p>
+    <p>&copy; 2026 TabVault</p>
   </footer>
 </body>
 </html>
